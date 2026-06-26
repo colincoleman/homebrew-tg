@@ -10,7 +10,7 @@ class TgTimer < Formula
   depends_on "fftw"
 
   def install
-    system "./configure", "--prefix=#{prefix}", "--disable-silent-rules"
+    system "./configure", "--prefix=#{prefix}", "--disable-silent-rules", "--without-python"
     system "make", "install"
   end
 end
