@@ -1,8 +1,8 @@
 class TgTimer < Formula
   desc "Program for timing mechanical watches"
   homepage "https://github.com/colincoleman/tg"
-  url "https://github.com/colincoleman/tg/releases/download/v0.7.0-tpiepho-cc.7/tg-timer-0.7.0-tpiepho-cc.7.tar.gz"
-  sha256 "cc55741221d90b6814ff9fb46dbaff7dcb669da75489afda4b11a4d99722863b"
+  url "https://github.com/colincoleman/tg/releases/download/v0.7.0-tpiepho-cc.8/tg-timer-0.7.0-tpiepho-cc.8.tar.gz"
+  sha256 "5f1cf7833536d582821bae97cdd3c8bac8b638a48c025330ac04efdf057cc260"
   license "GPL-2.0-only"
 
   depends_on "gtk+3"
